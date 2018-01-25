@@ -1,18 +1,5 @@
 defmodule FSM do
   @moduledoc """
-  Documentation for FSM.
+  https://www.codewars.com/kata/design-a-simple-automaton-finite-state-machine
   """
-
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> FSM.hello
-      :world
-
-  """
-  def hello do
-    :world
-  end
 end
