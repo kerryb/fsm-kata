@@ -6,5 +6,6 @@ defmodule FSM.State do
   def transition(_, :q3), do: :q2
   def transition(_, state), do: state
 
-  def accept?(state), do: false
+  def accept?(:q2), do: true
+  def accept?(_), do: false
 end
